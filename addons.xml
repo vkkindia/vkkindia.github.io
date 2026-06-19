@@ -5,13 +5,13 @@
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
-          <extension point="xbmc.addon.repository" name="VKKindia Repository">
-    <dir>
-        <info compressed="false">https://vkkindia.github.io/addons.xml</info>
-        <checksum>https://vkkindia.github.io/addons.xml.md5</checksum>
-        <datadir zip="true">https://vkkindia.github.io/</datadir>
-    </dir>
-</extension>
+        <extension point="xbmc.addon.repository" name="VKKindia Repository">
+			<dir>
+				<info compressed="false">https://vkkindia.github.io/addons.xml</info>
+				<checksum>https://vkkindia.github.io/addons.xml.md5</checksum>
+				<datadir zip="true">https://vkkindia.github.io/</datadir>
+			</dir>
+		</extension>
         <extension point="xbmc.addon.metadata">
             <summary>VKKindia Addons</summary>
             <description>Custom build repository for Hotstar and JioTV</description>
