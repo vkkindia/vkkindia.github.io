@@ -27,18 +27,13 @@
            version="1.0.0"
            provider-name="vkkindia">
 
-        <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.requests" version="2.25.1"/>
-        </requires>
-
         <extension point="xbmc.python.pluginsource" library="main.py">
             <provides>video</provides>
         </extension>
 
         <extension point="xbmc.addon.metadata">
-            <summary>Jio Hotstar Kodi Addon</summary>
-            <description>Watch Jio Hotstar content</description>
+            <summary>Jio Hotstar</summary>
+            <description>Hotstar addon</description>
             <platform>all</platform>
         </extension>
 
@@ -49,17 +44,12 @@
            version="1.0.0"
            provider-name="vkkindia">
 
-        <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.requests" version="2.25.1"/>
-        </requires>
-
         <extension point="xbmc.python.pluginsource" library="main.py">
             <provides>video</provides>
         </extension>
 
         <extension point="xbmc.addon.metadata">
-            <summary>JioTV Kodi Addon</summary>
+            <summary>JioTV</summary>
             <description>Live TV</description>
             <platform>all</platform>
         </extension>
