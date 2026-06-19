@@ -5,11 +5,12 @@
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
+      
         <extension point="xbmc.addon.repository" name="VKKindia Repository">
             <dir>
                 <info compressed="false">https://github.io</info>
                 <checksum>https://github.io.md5</checksum>
-                <datadir zip="true">https://github.io</datadir>
+                <datadir zip="true">https://vkkindia.github.io/</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
