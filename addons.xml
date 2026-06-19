@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-    <!-- =========================
-         REPOSITORY ADDON
-    ========================== -->
     <addon id="repository.vkkindia"
            name="VKKindia Repository"
            version="1.0.0"
            provider-name="vkkindia">
 
-        <extension point="xbmc.addon.repository" name="VKKindia Repository">
+        <extension point="xbmc.addon.repository">
             <dir>
                 <info compressed="false">https://vkkindia.github.io/addons.xml</info>
                 <checksum>https://vkkindia.github.io/addons.xml.md5</checksum>
@@ -18,16 +15,13 @@
         </extension>
 
         <extension point="xbmc.addon.metadata">
-            <summary>VKKindia Addons</summary>
-            <description>Custom Kodi repository for JioTV and Hotstar addons</description>
+            <summary>VKKindia Repository</summary>
+            <description>JioTV and Hotstar addons</description>
             <platform>all</platform>
         </extension>
 
     </addon>
 
-    <!-- =========================
-         JIO HOTSTAR ADDON
-    ========================== -->
     <addon id="plugin.video.jiohotstar"
            name="Jio Hotstar"
            version="1.0.0"
@@ -36,7 +30,6 @@
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests" version="2.25.1"/>
-            <import addon="script.module.inputstream.adaptive" version="19.0.0"/>
         </requires>
 
         <extension point="xbmc.python.pluginsource" library="main.py">
@@ -45,16 +38,12 @@
 
         <extension point="xbmc.addon.metadata">
             <summary>Jio Hotstar Kodi Addon</summary>
-            <description>Watch Jio Hotstar content on Kodi</description>
+            <description>Watch Jio Hotstar content</description>
             <platform>all</platform>
-            <license>GPL-2.0-or-later</license>
         </extension>
 
     </addon>
 
-    <!-- =========================
-         JIOTV ADDON
-    ========================== -->
     <addon id="plugin.video.jiotv"
            name="JioTV"
            version="1.0.0"
@@ -63,7 +52,6 @@
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests" version="2.25.1"/>
-            <import addon="script.module.inputstream.adaptive" version="19.0.0"/>
         </requires>
 
         <extension point="xbmc.python.pluginsource" library="main.py">
@@ -72,9 +60,8 @@
 
         <extension point="xbmc.addon.metadata">
             <summary>JioTV Kodi Addon</summary>
-            <description>Watch live TV channels using JioTV</description>
+            <description>Live TV</description>
             <platform>all</platform>
-            <license>GPL-2.0-or-later</license>
         </extension>
 
     </addon>
