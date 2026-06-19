@@ -29,7 +29,7 @@ This repository contains two Kodi addons for streaming content from Jio Hotstar 
 3.  Click on a title to play.
 
 ## 2026 Update Note
-These addons have been updated to support the new **JioStar** unified domain and the latest **JioTV** endpoints (`media.jio.com`). Older repositories like `kiranreddyrebel` may have stopped working because they still pointed to deprecated `api.jio.com` or legacy Hotstar domains.
+These addons have been updated to support the new **JioStar** unified domain and the latest **JioTV** endpoints (`media.jio.com`). 
 
 ## Requirements
 - Kodi 19+ (Matrix, Nexus, Omega)
